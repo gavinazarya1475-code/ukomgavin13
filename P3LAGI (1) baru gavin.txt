@@ -510,7 +510,7 @@ $TTL 604800
     sudo named-checkconf
     sudo named-checkzone ukom12tkja-13.sch.id /etc/bind/db.ukom12tkja-13.sch.id
     sudo systemctl reload named
-    sudo systemctl status bind9 --no-pager
+    sudo systemctl status named --no-pager
 
     Tes DNS:
 
@@ -592,7 +592,7 @@ sudo ufw status verbose
 
     sudo systemctl status mariadb --no-pager
     sudo systemctl status apache2 --no-pager
-    sudo systemctl status bind9 --no-pager
+    sudo systemctl status named --no-pager
 
     Pastikan ketiga layanan berjalan dengan status active (running).
 
